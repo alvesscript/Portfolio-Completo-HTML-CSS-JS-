@@ -1,3 +1,31 @@
-body {
-  background-color: #fafafa;
+header {
+  max-width: 1300px;
+  padding: 10px 100px;
+  margin: 0 auto;
+  background: #3a3a3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-inicial {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu-inicial {
+  font-size: 1rem;
+  line-height: 1, 30rem;
+  padding: 15px 2px;
+}
+
+.menu-inicial a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.imagem1 {
+  border-radius: 100px;
 }
