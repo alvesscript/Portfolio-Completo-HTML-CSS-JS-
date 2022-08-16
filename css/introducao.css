@@ -25,8 +25,8 @@
 
 .base {
   content: "";
-  display: block;
-  width: 250px;
+  display: flex;
+  max-width: 250px;
   background: url("/fotos/base.png") no-repeat;
   position: absolute;
   top: 300px;

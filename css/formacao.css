@@ -1,0 +1,24 @@
+.Formação {
+  max-width: 1300px;
+  padding: 30px 100px;
+  margin: 0 auto;
+  background: #dedede;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+}
+
+#caixa2 {
+  align-items: center;
+  border-left: 5px solid #000000;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#caixa {
+  align-content: center;
+  display: block;
+  justify-content: center;
+  color: #707070;
+}
