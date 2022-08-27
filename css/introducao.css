@@ -23,12 +23,16 @@
   font-size: 25px;
 }
 
-.base {
-  content: "";
-  display: flex;
-  max-width: 250px;
-  background: url("/fotos/base.png") no-repeat;
-  position: absolute;
-  top: 300px;
+#cor {
+  background-color: aqua;
   z-index: -1;
+}
+
+.imagem-pequena {
+  position: relative;
+  bottom: 10x;
+  display: flex;
+  margin: 0px;
+  padding: 15px;
+  left: 35px;
 }

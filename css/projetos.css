@@ -1,0 +1,18 @@
+#projetos {
+  max-width: 1300px;
+  padding: 100px 100px;
+  margin: 0 auto;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 2f;
+}
+
+.boxshadom {
+  background-color: #ffffff;
+  height: 180px;
+  transform: scale(2);
+  width: 130px;
+  box-shadow: 0 0 25px -10px #00000029;
+}

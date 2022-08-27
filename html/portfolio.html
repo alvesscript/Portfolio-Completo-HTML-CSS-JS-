@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="/css/introducao.css">
     <link rel="stylesheet" href="/css/formacao.css">
     <link rel="stylesheet" href="/css/experiencia.css">
+    <link rel="stylesheet" href="/css/projetos.css">
+    <link rel="stylesheet" href="/css/footer.css">
 </head>
 
 <body>
 
     <header>
-        <img class="imagem1" src="/fotos/imagem1.png" alt="imagem pequena">
+        <img class="imagem1" src="/fotos/logo.jpg" width="50" alt="imagem pequena">
 
         <nav>
             <ul class="menu-inicial">
@@ -31,13 +33,30 @@
     </header>
 
 
+
+
+
+
     <main class="introducao">
-        <img class="base" src="/fotos/base.png" alt="base">
-        <img class="imagem2" src="/fotos/imagem2.png" alt="foto2">
+        <div>
+
+            <img class="imagem2" src="/fotos/imagem2.png" alt="foto2">
+
+            <span class="imagem-pequena">
+                <a href="https://github.com/alvesscript"><img id="belikethis" src="/fotos/foto2.png" width="70" alt="imagem"></a>
+                <a href="https://www.linkedin.com/in/frederico-q-m-alves-4215581b0/"><img src="/fotos/linkedinicon.png" width="90" alt="linkedin"></a>
+                <a href="https://www.linkedin.com/in/frederico-q-m-alves-4215581b0/"><img src="/fotos/lattes.png" width="75" alt="linkedin"></a>
+
+            </span>
+
+        </div>
+
+
+
         <div>
             <h1>Frederico Alves</h1>
             <em class="subh1">
-                <p>Desenvolvedor Front-End e UI/UX Designer</p>
+                <p>Desenvolvedor Front-End e Designer Gráfico</p>
             </em>
             <div class="descricao">
                 <br>
@@ -78,7 +97,6 @@
     </section>
 
     <section class="experiencia" id="experiencia" aria-label="experiencia">
-
         <div id="experienciacaixa1">
 
             <br><span class="ex">
@@ -101,12 +119,80 @@
                 <p> IEAD - UNILAB</p>
             </div>
             </br>
+        </div>
+    </section>
 
 
 
+
+
+
+    <section class="projetos" id="projetos">
+        <div id="dividir" class="dividir">
+            <div>
+                <h2>Projetos</h2>
+            </div>
+
+            <table>
+                <tr>
+                    <td> <img src="/fotos/trança2.jpg" width="800" alt=""></td>
+
+                    <td> <img src="/fotos/virtual.jpg" width="800" alt=""></td>
+                    <td> <img src="/fotos/tranças.jpg" width="800" alt=""></td>
+                </tr>
+            </table>
 
         </div>
     </section>
+
+
+
+
+
+    <footer id="footer" class="footer">
+
+        <div id="contatos">
+
+            <h2>Contatos</h2><br>
+            <p>Quer entrar em contato comigo?</p><br>
+            <p>preencha o formulário ao lado e entrarei<br>em contato o mais rápido possível.</p><br>
+            <p>Você também pode me encontrar nas<br> seguinte redes sociais:</p><br>
+            <span>
+                <a href="https://twitter.com/lux_r13"> <img src="/fotos/twitter-icone-1.png" class="twitter" alt="imagem"></a>
+                <a href="https://www.instagram.com/lux_r13/"> <img src="/fotos/Instagram.png" class="instagram" alt="instagramimagem"> </a>
+                <a href="https://www.facebook.com/frederico.rico.52/"> <img src="/fotos/facebook.png" class="facebook" alt="imagem"></a></span>
+        </div>
+
+        <div id="form">
+            <div>
+                <form action="https://mail.google.com/mail/u/0/#inboxr">
+                    <label>Nome</label>
+                    <div>
+                        <input type="text" name="Nome" placeholder="Ex.Marcos">
+                    </div><br>
+
+                    <label>E-mail</label>
+                    <div>
+                        <input type="email" name="Email" placeholder="xxxxxmail.com">
+                    </div><br>
+
+                    <label>Assunto</label>
+                    <div>
+                        <input type="text" name="Observação">
+                    </div><br>
+
+                    <label>Mensagem</label>
+                    <div>
+                        <div id="Message"><textarea name="text area" id="" cols="30" rows="5" placeholder="Mensagem"></textarea></div>
+                    </div>
+                    <div id="Enviar"><input id="SUBMIT__BUTTON" type="submit" value="Enviar" name="Enviar"></div>
+                </form>
+            </div>
+
+        </div>
+    </footer>
+
+
 
 
 
