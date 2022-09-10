@@ -1,6 +1,6 @@
 #experiencia {
   max-width: 1300px;
-  padding: 0px 100px;
+  padding: 30px 100px;
   margin: 0 auto;
   background: #434343;
   display: flex;
@@ -22,4 +22,21 @@
 
 .ex {
   color: #ffffff;
+}
+
+#btn2 {
+  position: absolute;
+  background: #707070;
+  width: 100px;
+  color: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#globalfooter {
+  max-width: 1300px;
+  padding: 10px 100px;
+  margin: 0 auto;
+  background: #858585;
+  display: flex;
 }

@@ -19,13 +19,60 @@
 
 #botão {
   position: absolute;
-  background: black;
+  background: #707070;
   width: 100px;
   color: #ffffff;
-  font-size: 10px;
-  justify-content: ;
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+
+#btn4 {
+  position: absolute;
+  background: #707070;
+  width: 100px;
+  color: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .primeiraimagem {
 box-shadow: 5x 5px 5px #faea10;
 }
+
+#gitpart {
+  max-width: 1300px;
+  padding: 100px 100px;
+  margin: 0 auto;
+  background: #d4c7c7;
+  
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 2f;
+}
+
+#outrasimagens{
+  max-width: 1300px;
+  padding: 100px 100px;
+  margin: 0 auto;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 1f 1fr;
+  gap: 10px;
+  overflow: hidden;
+}
+
+#outrasimagens img {
+  box-shadow: 0 0 0.5em #707070;
+}
+
+#globalfooter {
+  max-width: 1300px;
+  padding: 10px 100px;
+  margin: 0 auto;
+  background: #858585;
+  display: flex;
+}
+

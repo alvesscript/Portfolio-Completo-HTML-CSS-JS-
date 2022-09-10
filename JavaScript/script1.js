@@ -8,10 +8,3 @@ form.addEventListener('submit', (e) => {
   console.log(email.value);
   e.proventDefault();
 });
-
-const github = querySelector('github');
-function getApiGitHub {
-fetch()
-}
-
-getApiGitHub
