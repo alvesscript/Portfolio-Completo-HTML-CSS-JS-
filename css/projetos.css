@@ -16,3 +16,16 @@
   width: 130px;
   box-shadow: 0 0 25px -10px #00000029;
 }
+
+#botão {
+  position: absolute;
+  background: black;
+  width: 100px;
+  color: #ffffff;
+  font-size: 10px;
+  justify-content: ;
+}
+
+.primeiraimagem {
+box-shadow: 5x 5px 5px #faea10;
+}

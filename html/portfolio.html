@@ -19,50 +19,41 @@
 <body>
 
     <header>
-        <img class="imagem1" src="/fotos/logo.jpg" width="50" alt="imagem pequena">
-
+        <a href="/html/portfolio.html"><img class="imagem1" src="/fotos/logo.jpg" width="50" alt="imagem pequena"></a>
+      
         <nav>
             <ul class="menu-inicial">
-                <li><a href="#APRESENTAÇÃO"> APRESENTAÇÃO</a></li>
-                <li><a href="#FORMAÇÃO"> FORMAÇÃO</a></li>
-                <li><a href="#EXPERIÊNCIA">EXPERIÊNCIA</a></li>
-                <li><a href="#PROJETOS">PROJETOS</a></li>
-                <li><a href="#FALA COMIGO!"> FALA COMIGO!</a></li>
+                <li><a href="/html/apresentação.html"> APRESENTAÇÃO</a></li>
+                <li><a href="/html/formação.html"> FORMAÇÃO</a></li>
+                <li><a href="/html/experiencia.html">EXPERIÊNCIA</a></li>
+                <li><a href="/html/projetos.html">PROJETOS</a></li>
+                <li><a href="/html/falacomigo.html"> FALA COMIGO!</a></li>
             </ul>
         </nav>
     </header>
-
-
-
-
-
-
     <main class="introducao">
-        <div>
+        <div id="imgemprincipal">
 
             <img class="imagem2" src="/fotos/imagem2.png" alt="foto2">
 
             <span class="imagem-pequena">
                 <a href="https://github.com/alvesscript"><img id="belikethis" src="/fotos/foto2.png" width="70" alt="imagem"></a>
-                <a href="https://www.linkedin.com/in/frederico-q-m-alves-4215581b0/"><img src="/fotos/linkedinicon.png" width="90" alt="linkedin"></a>
-                <a href="https://www.linkedin.com/in/frederico-q-m-alves-4215581b0/"><img src="/fotos/lattes.png" width="75" alt="linkedin"></a>
+                <a href="https://www.linkedin.com/in/fredericoqmalves/"><img src="/fotos/linkedinicon.png" width="90" alt="linkedin"></a>
+                <a href="http://lattes.cnpq.br/4766980471010623"><img src="/fotos/lattes.png" width="75" alt="linkedin"></a>
 
             </span>
 
         </div>
-
-
-
         <div>
-            <h1>Frederico Alves</h1>
-            <em class="subh1">
+            <h1>FREDERICO ALVES</h1>
+            <em class="subh1"><br>
                 <p>Desenvolvedor Front-End e Designer Gráfico</p>
             </em>
             <div class="descricao">
                 <br>
                 <p>
                     <br><strong class="ola">Olá</strong></br>
-                    Chamo-me Frederico Queirós Manuel Alves, formado em Ecônomicas e Jurídicas no ensino médio, Graduando em Administração Pública pela Universidade Internacional da Integração Afro-brasileira. Atualmente, além de estudante, trabalho com audiovisual, exatamente na questão de Produção de Videoclipes, Roteirista, Fotografo, Produtor de Música, Bussiness Man, Desginer Gráfico e Artista de Música nos tempos livres. Sempre fi a apaixonado por Tecnologias (no âmbito geral), por isso decidi entrar numa área que juntasse toodas minhas habilidades e fazer de todas uma só <strong>Front-End</strong>, juntei com o <strong> Design </strong>, que já algo com que trabalho, e vou aprimorando a cada dia que passa.
+                    Chamo-me Frederico Queirós Manuel Alves, formado em Ecônomicas e Jurídicas no ensino médio, Graduando em Administração Pública pela Universidade Internacional da Integração Afro-brasileira. Atualmente, além de estudante, trabalho com audiovisual, exatamente na questão de Produção de Videoclipes, Roteirista, Fotografo, Produtor de Música, Bussiness Man, Desginer Gráfico e Artista de Música nos tempos livres. Sempre fui apaixonado por Tecnologias (no âmbito geral), por isso decidi entrar numa área que juntasse todas minhas habilidades e fazer de todas uma só <strong>Front-End</strong>, juntei com o <strong> Design / Audiovisual</strong>, que já é algo com que trabalho, e vou aprimorando a cada dia que passa.
                 </p>
                 </br>
             </div>
@@ -122,11 +113,6 @@
         </div>
     </section>
 
-
-
-
-
-
     <section class="projetos" id="projetos">
         <div id="dividir" class="dividir">
             <div>
@@ -136,18 +122,13 @@
             <table>
                 <tr>
                     <td> <img src="/fotos/trança2.jpg" width="800" alt=""></td>
-
-                    <td> <img src="/fotos/virtual.jpg" width="800" alt=""></td>
+                    <td> <img class="github" src="/fotos/github.jpg" width="800" alt=""> <button id="botão">Repositório</button></td>
                     <td> <img src="/fotos/tranças.jpg" width="800" alt=""></td>
                 </tr>
             </table>
 
         </div>
     </section>
-
-
-
-
 
     <footer id="footer" class="footer">
 
@@ -166,39 +147,41 @@
         <div id="form">
             <div>
                 <form action="https://mail.google.com/mail/u/0/#inboxr">
-                    <label>Nome</label>
+
                     <div>
-                        <input type="text" name="Nome" placeholder="Ex.Marcos">
+                        <label for="nome">Nome</label> <br>
+                        <input type="text" name="Nome" id="nomeform" required maxlength="20" placeholder="Ex.Fredy">
                     </div><br>
 
-                    <label>E-mail</label>
+
                     <div>
-                        <input type="email" name="Email" placeholder="xxxxxmail.com">
+                        <label for="email">E-mail</label> <br>
+                        <input type="email" name="Email" id="emailform" required maxlength="50" placeholder="xxxxxmail.com">
                     </div><br>
 
-                    <label>Assunto</label>
+
                     <div>
-                        <input type="text" name="Observação">
+                        <label for="assunto">Assunto</label> <br>
+                        <input type="text" name="Observação" id="assuntoform" required maxlength="100">
                     </div><br>
 
-                    <label>Mensagem</label>
+
                     <div>
-                        <div id="Message"><textarea name="text area" id="" cols="30" rows="5" placeholder="Mensagem"></textarea></div>
+                        <label>Mensagem</label>
+                        <div id="Message">
+                            <textarea name="text area" id="" cols="30" rows="5" required maxlength="200" placeholder="Mensagem"></textarea>
+                        </div><br>
+                        <div>
+                            <input id="SUBMIT__BUTTON" type="submit" value="Enviar" name="Enviar">
+                        </div>
                     </div>
-                    <div id="Enviar"><input id="SUBMIT__BUTTON" type="submit" value="Enviar" name="Enviar"></div>
                 </form>
             </div>
 
         </div>
     </footer>
 
-
-
-
-
-
-
-
+    <script src="/JavaScript/script1.js"></script>
 </body>
 
 </html>

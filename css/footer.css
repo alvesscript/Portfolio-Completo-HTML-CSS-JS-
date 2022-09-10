@@ -33,3 +33,13 @@ footer {
 span {
   gap: 20px;
 }
+
+input:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+input:valid,
+textarea:valid {
+  border-color: green;
+}
